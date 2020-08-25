@@ -1,15 +1,13 @@
 # Git Talk - Productive commands
 
- 
-
  - **:wink:Add an specific file**: `git add [filename]`
  - **:ok_hand: Move some commit to a separate branch**: 
-		 1. `git log`
-		 2. Check or search the commit-hash
-		 3. `git reset --hard [commit-hash]` 
-		 4. `git checkout -b [new-branch-name]`
-		 5. `git add .`
-		 6. `git commit -m "[Your message here]"`
+	 1. `git log`
+	 2. Check or search the commit-hash
+	 3. `git reset --hard [commit-hash]` 
+	 4. `git checkout -b [new-branch-name]`
+	 5. `git add .`
+	 6. `git commit -m "[Your message here]"`
  - **:warning:Push a rebased local branch**: `git push -f`
  - **:nail_care:Polish my feature before submitting for review**: `git rebase -i [branch-name/commit hash]`
  - **:dango:Squash all commits into a single one and merge it into develop**: 
