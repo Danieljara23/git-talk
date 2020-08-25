@@ -62,5 +62,3 @@
 	 - `amend = commit -a --amend`
 
 **Note:warning:** : Commands like `git reset` or `git ammend` change the commit id/hash
-
-
