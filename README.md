@@ -19,7 +19,7 @@
 - **:rocket: Git time-machine to undo something terrible    :boom::scream:**
 	1.  `git reflog`
 	2. Search for all the index HEAD@{index} and search for the command just before everything crashed
-	3. `git resert HEAD@{index}`
+	3. `git reset HEAD@{index}`
 - **:sweat_smile:Ups, I Just made a commit and forget to add a little change**:
 	1. `git add .`
 	2. `git commit --amend --no-edit`
